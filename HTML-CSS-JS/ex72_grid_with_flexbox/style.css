@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    gap: 2px;
+    grid-template: repeat(3, 1fr) / 1fr 1fr;
+   }
+   
+   .footer {
+    display: flex;
+    justify-content: center;
+    grid-column: span 2;
+   }
+   
+   .header {
+    grid-column: span 2;
+   }
+   
+   .item {
+    background-color: #D9E8FB;
+    padding: 20px;
+   }
